@@ -3,3 +3,4 @@
 3-name
 4-puts.c
 6-size.c
+100-intel
