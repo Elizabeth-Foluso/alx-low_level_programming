@@ -13,4 +13,5 @@ FYI: The standard library provides a similar function: islower. Run man islower 
 4. isalpha
 mandatory
 Write a function that checks for alphabetic character.
-sign
+isignii
+6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
