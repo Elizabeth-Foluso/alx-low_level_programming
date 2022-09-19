@@ -7,7 +7,7 @@
  *
  * Return: returns integer value
  */
-int _atoi(char *s)
+int _atoi(const char *s)
 {
 	int i;
 	int np = 0;
