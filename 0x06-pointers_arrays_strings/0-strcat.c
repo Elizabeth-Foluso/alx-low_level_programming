@@ -1,18 +1,27 @@
 #include "main.h"
-#include <string.h>
-/*define data type*/
+/**
+* _strcat - concatenates two strings
+*
+* @dest: string to append to
+* @src: string to add
+*
+* Return: a pointer to the resulting string
+*/
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	char s1[] = "Hello ";
-	char s2[] = "World!\n";
-	char *ss;
+	int x = 0;
+	int y = 0;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	ss = _strcat(s1, s2);
-	printf("%s\n", s1);
-	printf("%s", s2);
-	printf("%s", ss);
+	while (dest[x])
+	{
+		x++;
+	}
+	while (src[y])
+	{
+		dest[x] = src[y];
+		x++;
+		y++;
+	}
 	return (dest);
 }
